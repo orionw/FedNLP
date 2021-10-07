@@ -41,7 +41,7 @@ if __name__ == "__main__":
     set_seed(args.manual_seed)
 
     # initialize the wandb machine learning experimental tracking platform (https://wandb.ai/automl/fednlp).
-    wandb.init(project="fednlp", entity="automl", name="FedNLP-Centralized" +
+    wandb.init(project="fednlp", entity="wellerorion", name="FedNLP-Centralized" +
                                                 "-SS-" + str(args.dataset) + "-" + str(args.model_name),
         config=args)
 

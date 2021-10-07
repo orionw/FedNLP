@@ -400,7 +400,7 @@ if __name__ == "__main__":
     # initialize the wandb machine learning experimental tracking platform (https://wandb.ai/automl/fednlp).
     wandb.init(
         project="fednlp",
-        entity="automl",
+        entity="wellerorion",
         name="FedCentralized" + "-" + str(args.dataset) + "-" + str(args.model) + "-" + str(word_emb_name) + "-e" +
              str(args.epochs) + "-lr" + str(args.lr),
         config=args

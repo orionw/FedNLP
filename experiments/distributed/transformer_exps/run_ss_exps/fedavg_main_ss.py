@@ -61,7 +61,7 @@ if __name__ == "__main__":
 
     if process_id == 0:
         # initialize the wandb machine learning experimental tracking platform (https://wandb.ai/automl/fednlp).
-        wandb.init(project="fednlp", entity="automl", name="FedNLP-" + str(args.fl_algorithm) +
+        wandb.init(project="fednlp", entity="wellerorion", name="FedNLP-" + str(args.fl_algorithm) +
                                                            "-SS-" + str(args.dataset) + "-" + str(args.model_name),
                    config=args)
 
